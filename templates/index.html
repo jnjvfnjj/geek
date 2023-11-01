@@ -1,0 +1,406 @@
+{% extends "include/homepage.html" %}
+{% block content%}
+{% load static %}
+        <main>
+            <!-- banner start -->
+            <div class="inner-area pt-0 pb-0" id="home"></div>
+            <div class="banner-area" data-background="https://www.instagram.com/p/CvM3aNkoQXl/"> 
+                <div class="container custom-container-1">
+                    <div class="row justify-content-between align-items-center">
+                        <div class="col-lg-6">
+                            <div class="banner-content mb-30 mb-lg-0">
+                                <h2 class="banner-content-title">ЗНАНИЯ С ГАРАНТИЕЙ</h2>
+                                <p class="banner-content-text">ИЗУЧАЙТЕ IT И СТАНЬТЕ ЭКСПЕРТОМ В СВОЕЙ ОБЛАСТИ </p>
+                                <a href="#demo" class="theme-btn btn-i-right">ЗАПИСАТЬСЯ НА КУРСЫ <i class="fa-light fa-arrow-right"></i></a>
+                                <a href="#demo" class="theme-btn btn-i-right">ВСЕ КУРСЫ<i class="fa-light fa-arrow-right"></i></a>
+                            </div>
+                        </div>
+                        <div class="col-lg-6">
+                            <div class="banner-img">
+                                <img src="https://all-t-shirts.ru/goods_images/1719/1882/ru117078/ru117078II000fc754ff9980de35bb18a1f5ea2da4c1a.jpg" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- banner end -->
+            <!-- <div class="col-xl-3 col-md-20">
+                <div class="feature-item mb-60">
+                    <div class="feature-item-icon">
+                        <svg width="61" height="68" viewBox="0 0 61 68" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M43.0503 59.5659C43.6174 63.1214 47.4271 65.1935 50.7212 63.7321C54.1971 64.8096 57.5241 66.0151 61 67.0926C60.7137 65.9574 60.4273 64.822 60.1411 63.6868C56.4943 62.6284 52.7853 61.6047 49.1358 60.548C50.403 56.0973 48.7621 47.0373 47.6528 44.335C50.3798 45.8594 51.4618 46.2851 55.4841 46.9975C55.9033 47.0712 56.2939 46.7904 56.3659 46.3812C56.4392 45.9671 56.1633 45.5728 55.7496 45.4995C51.2759 44.7072 50.7451 44.3433 46.7152 42.0565C46.5081 41.9391 46.2733 41.9398 46.0673 42.0201C45.4454 41.4048 44.7261 40.9619 44.0341 41.0439C42.5993 41.1996 42.3389 43.4677 42.1566 45.0739C40.9242 44.7939 39.8538 44.5349 38.7527 44.2699C34.6633 43.2874 33.1778 44.554 28.4352 41.4709C27.8165 41.0688 21.9799 35.2558 18.8553 37.7961C16.3704 39.8208 19.6203 43.8103 22.5876 46.0444C23.8261 46.9757 25.209 48.0418 26.4497 49.5005C26.104 49.7915 24.6727 50.2513 21.9005 49.4784C19.8577 48.9096 17.6771 48.5335 15.6967 47.8684L3.9747 43.938C1.12706 42.9819 -0.189611 44.4792 0.0219682 46.0622C0.141739 46.953 0.766957 47.8069 1.3856 48.4797C9.61547 59.701 25.6828 65.159 43.0503 59.5659ZM48.2281 57.2313C48.1883 57.7873 47.7112 60.3252 47.4929 60.6931C47.0011 60.4381 46.0436 59.3805 45.8554 57.7371C46.6515 57.5766 47.4426 57.4082 48.2281 57.2313ZM44.258 42.5677C44.7104 42.6893 45.9292 43.7725 46.5734 45.9582C45.6752 45.815 44.6886 45.6238 43.678 45.4088C43.6477 45.2003 43.9642 42.9632 44.258 42.5677ZM3.4912 45.3806L15.2127 49.311C17.2971 50.011 19.4135 50.3667 21.4923 50.9448C26.4083 52.3115 31.7602 51.0422 23.5026 44.8277C21.5238 43.3395 18.4608 40.0844 19.7772 39.0029C22.6439 37.6335 25.9684 41.683 27.6059 42.7471C32.7076 46.0642 34.5258 44.8175 38.3965 45.7501C40.9175 46.3568 44.4009 47.2003 46.9485 47.5573C46.9653 47.5598 46.9805 47.5533 46.9972 47.5543C47.6098 50.1784 47.8873 52.8825 48.1381 55.6926C31.8941 59.3939 14.0269 59.7734 2.5341 47.518C1.96002 46.9058 1.59491 46.3406 1.53044 45.8601C1.4027 44.9066 2.5577 45.0686 3.4912 45.3806Z" fill="currentColor"/>
+                            <path d="M14.915 0.286984C14.6963 0.0206612 14.2826 -0.0205853 14.1085 0.00758269C10.3297 0.655556 5.76364 3.40399 4.7461 7.2195C4.71894 7.32124 4.41117 9.20041 4.40428 9.30189C4.38403 9.5149 4.68839 9.98181 4.81013 10.1441C8.30916 14.5008 11.4218 18.9227 15.0038 23.2742C14.3589 24.0149 16.9521 20.9963 10.5922 28.4609C10.4735 28.6004 10.4245 28.7706 10.4213 28.9405C10.4204 28.9506 10.4144 28.9588 10.4139 28.9692C10.3772 29.6994 9.51426 36.09 9.0144 38.1508C8.94307 38.4461 9.05354 38.7552 9.29628 38.9385C9.54333 39.1238 9.87346 39.1391 10.1305 38.991C11.6437 38.1296 16.7659 35.7385 18.2515 35.0011C18.3768 34.9392 18.4666 34.8411 18.5382 34.7321C18.5407 34.7294 18.5443 34.7286 18.5467 34.7257C19.4493 33.6732 20.4899 32.455 21.6166 31.1118C24.3721 34.3165 27.1307 37.5276 29.6365 40.7028C30.2369 41.4298 31.5911 41.4908 32.5356 41.4908C35.3245 41.4908 40.1814 38.6891 42.0987 34.2015C42.4913 33.2882 42.0671 33.2243 41.963 32.9849C40.3427 31.0069 31.1806 19.9412 31.094 19.8367C40.4417 8.7606 37.2177 12.5807 37.9151 11.7543C39.5541 9.83904 38.4566 6.49534 36.4299 5.1557C34.9547 4.13905 31.8414 3.49685 30.5397 4.98231C30.4506 5.08716 24.1873 12.4559 24.5807 11.9931C20.7397 7.35226 17.568 3.52258 14.915 0.286984ZM14.0093 1.5807C15.0376 2.83404 16.0871 4.09903 17.1262 5.35782C17.1191 5.36327 17.1101 5.36476 17.1032 5.3707L14.8521 7.31561C14.5336 7.59006 14.4984 8.07059 14.7728 8.38863C15.0481 8.70734 15.53 8.7414 15.8459 8.4669L18.092 6.52794C18.9141 7.52268 19.7262 8.51149 20.552 9.50871L18.3164 11.4274C17.9974 11.7008 17.9607 12.1814 18.2342 12.5004C18.507 12.8181 18.9862 12.8571 19.3072 12.5826L21.5219 10.6828L23.5796 13.1699C23.5666 13.187 23.5519 13.2026 23.5403 13.2207L17.1883 20.7115C9.52061 11.2618 7.06813 8.29074 6.30213 7.35277C7.15823 4.76707 10.4336 2.31314 14.0093 1.5807ZM14.4112 35.1601C14.2711 34.822 12.2198 33.1773 11.4164 33.1246C11.5678 32.0803 11.7012 31.0937 11.795 30.339C12.2438 30.334 12.6902 30.3479 13.037 30.5059C13.307 30.6288 13.5131 30.8983 13.4789 31.0826C13.3868 31.5793 13.7969 32.0181 14.268 31.9822C15.3117 31.9187 16.3468 32.5414 16.6378 34.0936C15.8443 34.4753 15.2703 34.7485 14.4112 35.1601ZM34.5158 26.361L32.4227 28.0587C32.0962 28.3232 32.0467 28.8028 32.3112 29.1287C32.5744 29.4525 33.0537 29.5068 33.3818 29.2397L35.4851 27.5336C36.5844 28.8627 37.6865 30.1936 38.7819 31.522L36.0539 33.6497C35.7225 33.9083 35.6635 34.3868 35.9221 34.7177C36.1825 35.0511 36.6594 35.1071 36.9902 34.8505L39.7521 32.6961C40.0448 33.0483 40.3349 33.4005 40.6235 33.7527C39.2138 36.9024 36.1901 39.264 32.7999 39.8958C29.6746 36.0865 27.4727 33.388 23.6638 28.6873C24.2029 28.0477 26.4041 25.4103 30.1163 21.0422L31.0721 22.1965C30.795 22.3293 31.2439 22.0338 28.2871 24.4859C27.9651 24.7554 27.923 25.2359 28.193 25.5579C28.464 25.8806 28.9453 25.9207 29.2651 25.6511C32.2195 23.1399 31.8153 23.5586 31.9953 23.3118C32.8384 24.3301 33.6746 25.3444 34.5158 26.361ZM17.9585 33.073C17.6463 32.105 16.9948 31.297 16.0027 30.8272C16.969 29.7024 16.3973 30.3599 32.6602 11.36C33.9334 12.19 34.2202 12.1717 35.1132 12.7099C32.9929 15.1979 20.6899 29.88 17.9585 33.073ZM29.5925 8.43767C30.2166 9.21593 30.7917 9.86688 31.4449 10.4393C28.847 13.4714 14.7807 29.9153 14.692 30.0185C14.1494 29.161 13.2872 28.8722 12.279 28.8273C18.0563 22.0504 21.683 17.7641 29.5925 8.43767Z" fill="currentColor"/>
+                        </svg>                                        
+                    </div>
+                    <div class="MuiContainer-root MuiContainer-maxWidthLg WhyGeeks_container__uGzos css-1mn6h1b">
+                <div class="WhyGeeks_main__x31rW MuiBox-root css-0 aos-init aos-animate" data-aos="fade-up" data-aos-duration="800">
+                    <div class="WhyGeeks_head__GDOct MuiBox-root css-0">
+                        <p class="WhyGeeks_title__YUI0e MuiBox-root css-0">Почему стоит учиться в Geeks?</p>
+                        <a href="/advantages"><button class="WhyGeeks_button__Twi7Z MuiBox-root css-0">Все Преимущества</button></a>
+                    </div>
+                    <div class="WhyGeeks_body__V76ik MuiBox-root css-0"><div class="WhyGeeks_advantage__QhD0t MuiBox-root css-0">
+                        <p class="WhyGeeks_advantageTitle__BFDj5 MuiBox-root css-0">Менторство</p>
+                        <span class="WhyGeeks_advantageBody__NjpHk MuiBox-root css-0">Во время обучения, помимо преподавателей, Вам будет доступна персональная поддержка менторов, которые помогут решить любые проблемы, связанные с учебой. Вы также можете стать ментором со второго месяца обучения.</span>
+                    </div>
+                    <div class="WhyGeeks_advantage__QhD0t MuiBox-root css-0">
+                        <p class="WhyGeeks_advantageTitle__BFDj5 MuiBox-root css-0">Возможность заработка</p>
+                        <span class="WhyGeeks_advantageBody__NjpHk MuiBox-root css-0">Активные менторы в среднем зарабатывают от 15 000 до 25 000 сом в месяц, тем самым покрывая расходы на свое обучение уже во время прохождения курса!</span>
+                    </div>
+                    <div class="WhyGeeks_advantage__QhD0t MuiBox-root css-0">
+                        <p class="WhyGeeks_advantageTitle__BFDj5 MuiBox-root css-0">Бесплатный повтор</p>
+                        <span class="WhyGeeks_advantageBody__NjpHk MuiBox-root css-0">Одна из главных фишек Geeks - возможность перепройти курс повторно абсолютно бесплатно! Закрепляйте пройденные темы сколько Вам угодно, чтобы добиться поставленной цели!</span>
+                    </div>
+                    <div class="WhyGeeks_advantage__QhD0t MuiBox-root css-0">
+                        <p class="WhyGeeks_advantageTitle__BFDj5 MuiBox-root css-0">Преподаватели - практики</p>
+                        <span class="WhyGeeks_advantageBody__NjpHk MuiBox-root css-0">В рамках одного курса Вас будет обучать не один преподаватель, а сразу несколько! Все они - действующие специалисты по своему профилю и проходят тщательный отбор и регулярное повышение квалификации.</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+                    <span class="feature-item-number">01</span>
+                </div>
+            </div> -->
+            <div class="demo-area pt-120 pb-120" id="demo">
+                <div class="container custom-container-1">
+                    <div class="row">
+                        <div class="col-12">
+                            <div class="section-area text-center">
+                                <h2 class="section-title mb-60 line-heihgt-1-1">САМЫЕ ВОСТРЕБОВАННЫЕ IT-КУРСЫ В КЫРГЫЗСТАНЕ<br>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+            <!-- feature start -->
+            <div class="feature-area">
+                <div class="container custom-container-1">
+                    <div class="row">
+                        <div class="col-xl-3 col-md-6">
+                            <div class="feature-item mb-30">
+
+                                <div class="feature-item-content">
+                                    <h5><a href="#">МЕНЕДЖЕР ПРОЕКТОВ</a></h5>
+                                    <p>СТАНЬ МЕНЕДЖЕРОМ ПРОЕКТОВ С НУЛЯ ЗА 2 МЕСЯЦА! ПОЛУЧИ ДОСТУП К СТАЖИРОВКЕ И ПОМОЩЬ В ТРУДОУСТРОЙСТВЕ!</p>
+                                </div>
+                                <span class="feature-item-number">01</span>
+                            </div>
+                        </div>
+                        <div class="col-xl-3 col-md-6">
+                            <div class="feature-item mb-30">
+                                <div class="feature-item-content">
+                                    <h5><a href="#">FULLSTACK-РАЗРАБОТЧИК </a></h5>
+                                    <p>СТАНЬ FULLSTACK-РАЗРАБОТЧИКОМ С НУЛЯ ЗА 10 МЕСЯЦЕВ И ПОЛУЧИ ДОСТУП К СТАЖИРОВКЕ + ПОМОЩЬ В ТРУДОУСТРОЙСТВЕ!</p>
+                                </div>
+                                <span class="feature-item-number">02</span>
+                            </div>
+                        </div>
+                        <div class="col-xl-3 col-md-6">
+                            <div class="feature-item mb-30">
+                                <div class="feature-item-content">
+                                    <h5><a href="#">UX/UI-ДИЗАЙНЕР</a></h5>
+                                    <p>СТАНЬ UX/UI-ДИЗАЙНЕРОМ С НУЛЯ ЗА 3 МЕСЯЦА И ПОЛУЧИ ДОСТУП К СТАЖИРОВКЕ + ПОМОЩЬ В ТРУДОУСТРОЙСТВЕ!</p>
+                                </div>
+                                <span class="feature-item-number">03</span>
+                            </div>
+                        </div>
+                        <div class="col-xl-3 col-md-6">
+                            <div class="feature-item mb-30">
+                                <div class="feature-item-content">
+                                    <h5><a href="#">ОСНОВЫ ПРОГРАММИРОВАНИЯ</a></h5>
+                                    <p>ИЗУЧИ ОСНОВЫ ПРОГРАММИРОВАНИЯ ЗА 1 МЕСЯЦ И ПОЛУЧИ МАКСИМАЛЬНУЮ СКИДКУ НА ОСНОВНЫЕ КУРСЫ!</p>
+                                </div>
+                                <span class="feature-item-number">04</span>
+                            </div>
+                        </div>
+                        <div class="col-xl-3 col-md-6">
+                            <div class="feature-item mb-30">
+                                <div class="feature-item-content">
+                                    <h5><a href="#">ANDROID-РАЗРАБОТЧИК</a></h5>
+                                    <p>СТАНЬ ANDROID-РАЗРАБОТЧИКОМ С НУЛЯ ЗА 7 МЕСЯЦЕВ И ПОЛУЧИ ДОСТУП К СТАЖИРОВКЕ + ПОМОЩЬ В ТРУДОУСТРОЙСТВЕ!</p>
+                                </div>
+                                <span class="feature-item-number">05</span>
+                            </div>
+                        </div>
+                        <div class="col-xl-3 col-md-6">
+                            <div class="feature-item mb-30">
+
+                                <div class="feature-item-content">
+                                    <h5><a href="#">BACKEND-РАЗРАБОТЧИК</a></h5>
+                                    <p>СТАНЬ BACKEND-РАЗРАБОТЧИКОМ С НУЛЯ ЗА 5 МЕСЯЦЕВ И ПОЛУЧИ ДОСТУП К СТАЖИРОВКЕ + ПОМОЩЬ В ТРУДОУСТРОЙСТВЕ!</p>
+                                </div>
+                                <span class="feature-item-number">06</span>
+                            </div>
+                        </div>
+                        <div class="col-xl-3 col-md-6">
+                            <div class="feature-item mb-30">
+                               
+                                <div class="feature-item-content">
+                                    <h5><a href="#">ТЕСТИРОВЩИК ПО</a></h5>
+                                    <p>СТАНЬ ТЕСТИРОВЩИКОМ ПО С НУЛЯ ЗА 3 МЕСЯЦА И ПОЛУЧИ ДОСТУП К СТАЖИРОВКЕ + ПОМОЩЬ В ТРУДОУСТРОЙСТВЕ!</p>
+                                </div>
+                                <span class="feature-item-number">07</span>
+                            </div>
+                        </div>
+                        <div class="col-xl-3 col-md-6">
+                            <div class="feature-item mb-30">
+                                                                    
+                                
+                                <div class="feature-item-content">
+                                    <h5><a href="#">FRONTEND-РАЗРАБОТЧИК</a></h5>
+                                    <p>СТАНЬ FRONTEND-РАЗРАБОТЧИКОМ С НУЛЯ ЗА 5 МЕСЯЦЕВ И ПОЛУЧИ ДОСТУП К СТАЖИРОВКЕ + ПОМОЩЬ В ТРУДОУСТРОЙСТВЕ!</p>
+                                </div>
+                                <span class="feature-item-number">08</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- feature end -->
+
+
+            <!-- core feature start -->
+            <div class="core_feature-area pt-120 pb-20" id="features"></div>            
+            <div class="banner-area" data-background="https://www.instagram.com/geeks_edu/"> 
+                <div class="container custom-container-1">
+                    <div class="row justify-content-between align-items-center">
+                        <div class="col-lg-6">
+                            <div class="banner-content mb-50 mb-lg-0">
+                                <h2 class="banner-content-title">GEEKS JUNIOR</h2>
+                                <p class="banner-content-text">КУРСЫ IT ДЛЯ ДЕТЕЙ И ПОДРОСТКОВ ОТ 7 ДО 18 ЛЕТ </p>
+                                <a href="#demo" class="theme-btn btn-i-right">ЗАПИСАТЬСЯ НА КУРСЫ <i class="fa-light fa-arrow-right"></i></a>
+                            </div>
+                        </div>
+                        <div class="col-lg-6">
+                            <div class="banner-img">
+                                <img src="{{photos.first_photo.url}}" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-xl-4 col-md-6">
+                    <div class="demo-item mb-30">
+                        <div class="demo-item-img">
+                            <a href="eduan/index.html"><img src="https://avatars.mds.yandex.net/i?id=2a0000018b86fae7284d768ba5d0e52bac1d-1673436-fast-images&n=13" alt=""></a>
+                        </div>
+                        <div class="demo-item-content">
+                            <h5><a href="eduan/index.html">ДЕТСКОЕ ПРОГРАММИРОВАНИЕ</a></h5>
+                            <span>Курс детское программирование пройдя который ребенок обучится блочному программированию, 3D моделированию, основам языка Python и Lua а так-же подтянет английский язык.
+
+                                Длительность: 3 месяца</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-4 col-md-6">
+                    <div class="demo-item mb-30">
+                        <div class="demo-item-img">
+                            <a href="eduan/index-2.html"><img src="https://avatars.mds.yandex.net/i?id=569f2033cdbcef33851b8a2309f77b1e7256e016-10375548-images-thumbs&n=13" alt=""></a>
+                        </div>
+                        <div class="demo-item-content">
+                            <h5><a href="eduan/index-2.html">РОБОТОТЕХНИКА</a></h5>
+                            <span>Курс детское программирование пройдя который ребенок обучится блочному программированию, 3D моделированию, основам языка Python и Lua а так-же подтянет английский язык.
+
+                                Длительность: 3 месяца</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-4 col-md-6">
+                    <div class="demo-item mb-30">
+                        <div class="demo-item-img">
+                            <a href="eduan/index-3.html"><img src="https://avatars.mds.yandex.net/i?id=0e363e4d1fbf18a1b5176b7b99466902f9db40e5-9122788-images-thumbs&n=13" alt=""></a>
+                        </div>
+                        <div class="demo-item-content">
+                            <h5><a href="eduan/index-3.html">ВВЕДЕНИЕ В ИСКУССТВЕННЫЙ ИНТЕЛЛЕКТ</a></h5>
+                            <span>Курс детское программирование пройдя который ребенок обучится блочному программированию, 3D моделированию, основам языка Python и Lua а так-же подтянет английский язык.
+
+                                Длительность: 3 месяца</span>
+                        </div>
+                    </div>
+                </div>
+
+            <!-- faq start -->
+            <div class="faq-area pt-120 pb-90" id="faq">
+                <div class="banner-area" data-background="https://www.instagram.com/geeks_edu/"> 
+                    <div class="container custom-container-1">
+                        <div class="row justify-content-between align-items-center">
+                            <div class="col-lg-6">
+                                <div class="banner-content mb-50 mb-lg-0">
+                                    <h2 class="banner-content-title">GEEKS PRO</h2>
+                                    <p class="banner-content-text">ИЗУЧАЙТЕ IT И СТАНЬТЕ ЭКСПЕРТОМ В СВОЕЙ ОБЛАСТИ</p>
+                                    <a href="#demo" class="theme-btn btn-i-right">ВОЙТИ В БАНК РЕЗЮМЕ<i class="fa-light fa-arrow-right"></i></a>
+                                </div>
+                            </div>
+                            <div class="col-lg-6">
+                                <div class="banner-img">
+                                    <img src="{{photos.first_photo.url}}" alt="">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div> 
+                <div class="row">
+                    <div class="col-xl-4 col-md-6">
+                        <div class="demo-item mb-30">
+                            <div class="demo-item-img">
+                                <a href="eduan/index-4.html"><img src="https://avatars.mds.yandex.net/i?id=efba78c8cdb38495f4dbfe0f2e13d6ac4001a017-9106775-images-thumbs&n=13" alt=""></a>
+                            </div>
+                            <div class="demo-item-content">
+                                <h5><a href="eduan/index-4.html">ТРЕНИНГИ И МАСТЕР-КЛАССЫ</a></h5>
+    
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-4 col-md-6">
+                        <div class="demo-item mb-30">
+                            <div class="demo-item-img">
+                                <a href="eduan/index-5.html"><img src="https://avatars.mds.yandex.net/i?id=4186e8deefd7f1151b4559101cbd484447b1c6a1-6998621-images-thumbs&n=13" alt=""></a>
+                            </div>
+                            <div class="demo-item-content">
+                                <h5><a href="eduan/index-5.html">РАБОТА НАД РЕАЛЬНЫМИ ПРОЕКТАМИ</a> <span>hot</span></h5>
+                                <span>Home Five</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-4 col-md-6">
+                        <div class="demo-item mb-30">
+                            <div class="demo-item-img">
+                                <a href="eduan/index-6.html"><img src="https://avatars.mds.yandex.net/i?id=a59339aa5faa0c6bbd34b80bae20c05228872673-9769791-images-thumbs&n=13" alt=""></a>
+                            </div>
+                            <div class="demo-item-content">
+                                <h5><a href="eduan/index-6.html">ПОВЫШЕНИЕ КВАЛИФИКАЦИИ</a></h5>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-4 col-md-6">
+                        <div class="demo-item mb-30">
+                            <div class="demo-item-img">
+                                <img src="https://avatars.mds.yandex.net/i?id=c8dd292b34cae55fb51950c482e4fba0aa3dc8e5-9181168-images-thumbs&n=13" alt="">
+                            </div>
+                            <div class="demo-item-content">
+                                <h5><a href="#">РАБОТА В КОМАНДЕ</a> <span>Coming Soon</span></h5>
+                                <span>Upcoming</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-4 col-md-6">
+                        <div class="demo-item mb-30">
+                            <div class="demo-item-img">
+                                <img src="https://avatars.mds.yandex.net/i?id=99e7c6704a9495115e88f69131c923dcbd99aad4-8497035-images-thumbs&n=13" alt="">
+                            </div>
+                            <div class="demo-item-content">
+                                <h5><a href="#">ВОЗМОЖНОСТЬ ТРУДОУСТРОЙСТВА</a> <span>Coming Soon</span></h5>
+                                <span>Upcoming</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-4 col-md-6">
+                        <div class="demo-item mb-30">
+                            <div class="demo-item-img">
+                                <img src="https://avatars.mds.yandex.net/i?id=ffca809e22f86ef1ce497a9da73edbed6b3910d1-10803836-images-thumbs&n=13" alt="">
+                            </div>
+                            <div class="demo-item-content">
+                                <h5><a href="#">ВОЗМОЖНОСТЬ РАБОТЫ ОНЛАЙН</a> <span>Coming Soon</span></h5>
+                                <span>Upcoming</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>               
+                <div class="container">
+                    <div class="row justify-content-center">
+                        <div class="col-xl-8">
+                            <div class="core_feature-content text-center">
+                                <h2 class="core_feature-content-title mb-60">Do you have any Question</h2>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row justify-content-center">
+                        <div class="col-xl-8">
+                            <div class="faq-content">
+                                <div class="accordion" id="Expp">
+                                    <div class="accordion-item">
+                                        <h2 class="accordion-header" id="headingOne">
+                                            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                                What’s the deference between the Eduan HTML and WP?
+                                            </button>
+                                        </h2>
+                                        <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#Expp">
+                                            <div class="accordion-body">
+                                                Eduan HTML template is static web pages that you can edit with code. Eduan WordPress theme use Elementor page
+                                                builder and you can build demos without coding.
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="accordion-item">
+                                        <h2 class="accordion-header" id="headingThree">
+                                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                                Do I get all Education demos and templates with a single license? 
+                                            </button>
+                                        </h2>
+                                        <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#Expp">
+                                            <div class="accordion-body">
+                                                Yes! You get Education related 10+ demos, 150+ section templates and 50+ inner pages with a single license.
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="accordion-item">
+                                        <h2 class="accordion-header" id="headingFour">
+                                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                                               Which frameworks did you use?
+                                            </button>
+                                        </h2>
+                                        <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#Expp">
+                                            <div class="accordion-body">
+                                                Only Bootstrap 5 framework is used for creating Eduan HTML. Bootstrap is a Powerful, extensible, and feature-packed frontend toolkit. Build and customize with Sass, utilize prebuilt grid system and components, and bring projects to life with powerful JavaScript plugins.
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="accordion-item">
+                                        <h2 class="accordion-header" id="headingFive">
+                                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+                                                How can I reach your support team?
+                                            </button>
+                                        </h2>
+                                        <div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingFive" data-bs-parent="#Expp">
+                                            <div class="accordion-body">
+                                                Go to Eduan's product page and click Support. You will be directed to _Themephi's support portal. You can send message using your personal email to <a href="mailto:mr.masumduetian@gmail.com">mr.masumduetian@gmail.com</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="accordion-item">
+                                        <h2 class="accordion-header" id="headingSix">
+                                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
+                                                Do you release updates? What should I expect?
+                                            </button>
+                                        </h2>
+                                        <div id="collapseSix" class="accordion-collapse collapse" aria-labelledby="headingSix" data-bs-parent="#Expp">
+                                            <div class="accordion-body">
+                                                Yes! We constantly add new features,  demos, and more with updates. The best part is that they are all for free. For a lifetime!
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="accordion-item">
+                                        <h2 class="accordion-header" id="headingSeven">
+                                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSeven" aria-expanded="false" aria-controls="collapseSeven">
+                                                How can I leave a feedback for the future improvements?
+                                            </button>
+                                        </h2>
+                                        <div id="collapseSeven" class="accordion-collapse collapse" aria-labelledby="headingSeven" data-bs-parent="#Expp">
+                                            <div class="accordion-body">
+                                                Please reach us at mr.masumduetian@gmail.com for feedbacks.
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- faq end -->
+
+        </main>
+{%endblock%}
